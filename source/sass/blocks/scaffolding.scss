@@ -64,6 +64,11 @@ body {
     max-width: 1080px;
   }
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .wrapper {
   padding-left: 25px;
   padding-right: 25px;
