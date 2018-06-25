@@ -1,0 +1,73 @@
+.stats {
+  width: 332px;
+  height: 170px;
+  background-color: #fff;
+  padding: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10px;
+}
+.stats__title {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(85, 85, 85, 255);
+  text-align: center;
+  text-transform: uppercase;
+}
+.stats__list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  align-self: flex-end;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.stats__item {
+  display: flex;
+  align-items: flex-end;
+  width: 19px;
+  height: 90px;
+  background-color: #f0efef;
+  border-radius: 5px ;
+}
+.stats__item-level {
+  margin: 0;
+  width: 19px;
+  height: 50px;
+  background-color: #8a4419;
+  border-radius: 5px ;
+}
+.stats__item-level--1 {
+  height: 50px;
+}
+.stats__item-level--2 {
+  height: 40px;
+}
+.stats__item-level--3 {
+  height: 60px;
+}
+.stats__item-level--4 {
+  height: 50px;
+}
+.stats__item-level--5 {
+  height: 50px;
+}
+.stats__item-level--6 {
+  height: 40px;
+}
+.stats__item-level--7 {
+  height: 30px;
+}
+.stats__item-level--8 {
+  height: 50px;
+}
+.stats__item-level--9 {
+  height: 60px;
+}
+.stats__item-level--10 {
+  height: 70px;
+}
