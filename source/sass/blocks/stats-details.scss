@@ -1,0 +1,26 @@
+.stats-details {
+  padding: 25px;
+  padding-top: 40px;
+  min-height: 210px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.stats-details__content {
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+  color: rgba(85, 85, 85, 255);
+  display: -webkit-box;
+  -webkit-line-clamp: 4; // string
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 70px /* fallback */
+}
+.btn__stats-details {
+  margin-top: auto;
+}
