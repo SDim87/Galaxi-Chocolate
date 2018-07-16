@@ -71,13 +71,13 @@
   text-transform: uppercase;
 }
 .btn--transparent {
-  color: #66727b;
+  color: #555555;
   background-color: transparent;
-  border: 1px solid #e2e2e2;
+  border: 1px solid #555555;
   text-transform: uppercase;
   &:hover {
-    background-color: #66727b;
-    color: #e2e2e2;
+    background-color: #555555;
+    color: #fff;
   }
 }
 .btn__tab-content {

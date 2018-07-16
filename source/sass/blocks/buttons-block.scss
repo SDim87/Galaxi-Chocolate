@@ -1,0 +1,82 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 25px;
+  width: 234px;
+  min-height: 360px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.btn--transparent {
+  text-transform: none;
+}
+
+.btn--third {
+  background-color: #8a4419;
+  color: #fff;
+  border: 1px solid #8a4419;
+
+  &:hover {
+    color: #8a4419;
+  }
+}
+
+.btn--fourth {
+  background-color: transparent;
+  color: #8a4419;
+  border: 1px solid #8a4419;
+
+  &:hover {
+    color: #fff;
+    background-color: #8a4419;
+  }
+}
+
+.select {
+  position: relative;
+  width: 100%;
+
+  &:hover .select__arrow > svg{
+    fill: #ffffff;
+    transition: .3s;
+  }
+
+  .select__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    width: 48px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    height: 100%;
+    border-radius: 0px 5px 5px 0px;
+
+    .select__arrow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &:before {
+      border-left: solid 1px #e2e2e2;
+      content : "";
+      position: absolute;
+      left    : 0;
+      bottom  : 0;
+      height  : 100%;
+    }
+  }
+
+  .select__control {
+    -webkit-appearance: none; // избавляемся от стрелки
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border: solid 1px #e2e2e2;
+  }
+}
